@@ -1,0 +1,10 @@
+﻿var func = function()
+{
+
+   
+
+
+};
+
+$(func);
+

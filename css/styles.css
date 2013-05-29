@@ -1,0 +1,71 @@
+/* HTML tags : start */
+html, body, p, h1, h2, h3, a, img, form, table, tr, td {
+        margin: 0;
+        padding: 0;
+        border: 0}
+html {height:100%;}
+body{font-family:Georgia, "Times New Roman", Times, serif;color:#fff;font-size:14px;min-height:100%;position:relative;min-width:960px;_width:expression(document.documentElement.clientWidth < 960 ? "960px" : "auto");background:url(../images/body_bg.png)}
+*html body{height:100%}
+body{behavior:url("csshover.htc");}
+/* HTML tags */
+h1{}
+
+a:hover{text-decoration:none}
+
+.main-container{background:url(../images/bg.jpg) top center no-repeat;padding-bottom:100px;overflow:hidden}
+
+.header{height:880px;position:relative;width:960px;margin:0 auto;text-align:right;font-family:Arial, Helvetica, sans-serif}
+
+.logo{position:absolute;width:110px;height:110px;top:25px;left:55px}
+.logo a{width:110px;height:110px;display:block;}
+
+.soc{padding:33px 0 15px 0}
+.soc img{margin-left:10px}
+
+.email-link{}
+.email-link a{color:#4ce8cd;font-size:14px}
+
+.phone{color:#caf57c;font-size:28px;padding:5px 0;letter-spacing:-0.05em}
+
+.adress{color:#caf57c;font-size:14px;line-height:20px;font-style:italic;padding:10px 0 25px 0}
+.adress span{color:#4ce8cd;font-size:14px;font-style:normal}
+
+.sale-b{float:right}
+.sale-b a{background:url(../images/btn.png) 0 0 no-repeat;width:160px;height:36px;display:block}
+.sale-b a:hover{background-position:0 -36px}
+
+.content{padding:0 10px;width:940px;margin:0 auto}
+.content h1{color:#fff;font-size:40px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;padding-bottom:10px;letter-spacing:-0.05em}
+
+.about-box{width:700px;margin:0 auto;text-align:center;padding-bottom:45px}
+.about-box p{color:#fff;font-size:16px;line-height:20px;padding-bottom:10px}
+
+.jazz-box{float:left;width:280px;}
+.jazz-box p{color:#cefe79;font-size:14px;line-height:20px;padding-bottom:12px}
+
+.tonn-box{float:right;width:280px;}
+.tonn-box p{color:#26f2f9;font-size:14px;line-height:20px;padding-bottom:12px}
+
+.sun-box{margin:0 320px}
+.sun-box p{color:#80faa6;font-size:14px;line-height:20px;padding-bottom:12px}
+
+.order-box{text-align:center;padding:20px 0 5px 0}
+.order-box p{color:#cefe79;font-size:20px;line-height:26px;padding-bottom:12px}
+.order-box p a{color:#cefe79;}
+
+.price-box{text-align:center;padding-bottom:40px}
+.price-box h1{padding-bottom:5px}
+.price-box p{color:#cefe79;font-size:16px;line-height:22px;padding-bottom:12px}
+.price-box p a{color:#cefe79;}
+
+/* Content */
+
+/* Footer */
+.footer{background:#a8d46c;height:55px;position:absolute;width:100%;bottom:0;left:0;text-align:center;padding-top:15px;color:#021a34;font-size:14px;line-height:19px}
+.footer a{color:#021a34;}
+/* Footer */
+.clear{clear:both}
+* html .clearfix{height: 1%; overflow: visible;}
+*+html .clearfix{  min-height: 1%;}
+.clearfix { zoom: 1 }
+.clearfix:after {  content: "";   clear: both;  display: block;  width: 0; height: 0;  overflow: hidden;  font-size: 0;}
